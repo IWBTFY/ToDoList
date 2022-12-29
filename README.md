@@ -1,4 +1,4 @@
-# **ToDo app **
+# **ToDo app**
 
 # Try it [here](https://iwbtfy.github.io/ToDoList/)
 
