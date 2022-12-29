@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "PrincessSofia-Regular";
+  src: url(../fonts/PrincessSofia-Regular.ttf);
+}
+
+body,
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  height: 100vh;
+  background-color: #000;
+  color: white;
+}
+
+input {
+  outline: none;
+}
+
+h1,
+h5 {
+  margin-top: 1em;
+  color: orange;
+  text-align: center;
+  font-family: "PrincessSofia-Regular" !important;
+  font-weight: bold;
+}
+
+li {
+  background-color: rgb(6, 214, 225) !important;
+  font-weight: bold;
+}
+
+li {
+  border: 1px solid black !important;
+  color: white !important;
+  transition: all 0.5s ease;
+}
+li:hover {
+  cursor: pointer;
+  background-color: rgba(6, 214, 225, 0.7) !important;
+}
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+i {
+  color: rgba(255, 255, 255, 0.589);
+}
+i:hover {
+  cursor: pointer;
+  color: #fff;
+}
